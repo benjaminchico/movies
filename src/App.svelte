@@ -1,4 +1,5 @@
 <script>
+	import Card from './Card/Card.svelte'
 	export let name;
 	let texto = "Este es el bebe"
 </script>
@@ -11,7 +12,7 @@
 	<h1>Hello {name}!</h1>
 	 <h5>{texto}</h5>
 	<input type="text" bind:value={texto}>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Card title="COBAYAS"></Card>
 </main>
 
 <style>
